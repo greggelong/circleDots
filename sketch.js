@@ -1,6 +1,6 @@
 let cnv;
 let r= 320
-let r2 =360
+let r2 =344
 
 
 function setup() {
@@ -12,7 +12,7 @@ function setup() {
   angleMode(DEGREES);
   noFill()
   stroke(255)
-  textSize(50)
+  textSize(20)
   textAlign(CENTER,CENTER )
   
 }
@@ -22,7 +22,7 @@ function draw(){
   stroke(0)
   translate(width/2,height/2);
   ellipse(0,0,r*2);
-  dcd(10);
+  dcd(60);
 }
 
 function dcd(nod){
